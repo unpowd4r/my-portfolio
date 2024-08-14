@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from "styled-components";
+import {ButtonsStyled} from "./styledProjects/StyledProjects";
 
 const navigationTitle = ['Story', 'Post', 'Banner', 'Trailer', 'Design', 'More']
 
@@ -13,9 +13,5 @@ export const ButtonsProject = () => {
     );
 };
 
-const ButtonsStyled = styled.div `
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-`
+
 

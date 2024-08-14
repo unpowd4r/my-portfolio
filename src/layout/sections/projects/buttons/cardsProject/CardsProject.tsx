@@ -8,7 +8,9 @@ import project5 from '../../../../../components/img/projects/Rectangle 2.png'
 import project6 from '../../../../../components/img/projects/Rectangle 2-1.png'
 import project7 from '../../../../../components/img/projects/Rectangle 2-2.png'
 import project8 from '../../../../../components/img/projects/Rectangle 2-3.png'
-import styled from "styled-components";
+
+
+import {ButtonPreview, CardProject, Cards, Overlay, Photo, PhotoContainer, Text} from "../styledProjects/StyledProjects";
 
 const cardProjects = [
     {id:1,  image: project1, name: 'Project 1', desc: 'Story motion for sale English cources'},
@@ -43,44 +45,3 @@ export const CardsProject = () => {
     );
 };
 
-const Cards = styled.div `
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-    gap: 5px
-`
-
-const CardProject = styled.div `
-    width: 23%;
-    border-radius: 26px;
-`
-const Photo = styled.img `
-    width: 270px;
-    height: 394px;
-`
-
-const PhotoContainer = styled.div`
-    position: relative;
-    overflow: hidden;
-`
-
-const Overlay = styled.div`
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #353535;
-    padding: 10px;
-    border-radius: 8px;
-    color: white;
-`
-
-const Text = styled.p`
-    font-size: 16px;
-`
-
-const ButtonPreview = styled.div`
-    display: flex;
-    justify-content: space-between;
-`

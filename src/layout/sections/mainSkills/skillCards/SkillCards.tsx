@@ -11,7 +11,7 @@ const iconsSkills = [
     { id: 1, icons: htmlImg, name: 'HTML'},
     { id: 2, icons: cssImg, name: 'CSS'},
     { id: 3, icons: reactImg, name: 'React'},
-    { id: 4, icons: typeScriptImg, name: 'Type Script'}
+    { id: 4, icons: typeScriptImg, name: 'Type Script'},
 ]
 
 export const SkillCards = () => {

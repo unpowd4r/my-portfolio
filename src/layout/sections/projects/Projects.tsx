@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from "styled-components";
 import {ButtonsProject} from "./buttons/ButtonsProject";
 import {CardsProject} from "./buttons/cardsProject/CardsProject";
+import {ProjectSection, TitleProject} from "./buttons/styledProjects/StyledProjects";
 
 export const Projects = () => {
     return (
@@ -13,11 +13,3 @@ export const Projects = () => {
     );
 };
 
-const TitleProject = styled.h2 `
-    text-align: center;
-`
-
-const ProjectSection = styled.div`
-    height: 100vh;
-    background-color: #c5e9ea;
-`
