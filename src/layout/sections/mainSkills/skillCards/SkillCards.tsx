@@ -5,7 +5,7 @@ import reactImg from "../../../../components/icons/react-svgrepo-com.svg";
 import typeScriptImg from "../../../../components/icons/typescript-official-svgrepo-com.svg";
 
 import {Rectangles} from "../rectangle/Rectangle";
-import styled from "styled-components";
+import {Card, IconsImg} from "../styled/Styled";
 
 const iconsSkills = [
     { id: 1, icons: htmlImg, name: 'HTML'},
@@ -27,18 +27,3 @@ export const SkillCards = () => {
         </Card>
     );
 };
-
-
-const IconsImg = styled.img`
-    width: 55px;
-    height: 55px;
-
-    border-radius: 50%;
-`
-
-const Card = styled.div`
-    display: flex;
-    justify-content: center;
-    
-    gap: 30px;
-`

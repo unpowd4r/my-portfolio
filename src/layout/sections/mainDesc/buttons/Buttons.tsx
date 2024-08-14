@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from "styled-components";
+import {MainButtons} from "../styled/StyledDesc";
 
 export const Buttons = () => {
     return (
@@ -10,6 +10,3 @@ export const Buttons = () => {
     );
 };
 
-const MainButtons = styled.div`
-    display: flex;
-`

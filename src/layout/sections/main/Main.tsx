@@ -1,7 +1,7 @@
 import React from 'react';
 import {MainSkillsSection} from "../mainSkills/MainSkills";
 import {MainDesc} from "../mainDesc/MainDesc";
-import styled from "styled-components";
+import {MainSection} from "./styled/MainStyled";
 
 
 export const Main = () => {
@@ -13,11 +13,6 @@ export const Main = () => {
     );
 };
 
-const MainSection = styled.div `
-    height: 100vh;
-
-    background-color: #7c5f5f;
-`
 
 
 

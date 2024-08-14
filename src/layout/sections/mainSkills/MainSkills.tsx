@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from "styled-components";
 import {SkillCards} from "./skillCards/SkillCards";
+import {MainSkills} from "./styled/Styled";
 
 
 
@@ -12,12 +12,6 @@ export const MainSkillsSection = () => {
     );
 };
 
-
-const MainSkills = styled.div`
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-`
 
 
 
